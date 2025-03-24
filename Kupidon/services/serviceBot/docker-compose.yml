@@ -1,0 +1,20 @@
+services:
+  serviceBot:
+    image: service_bot:latest
+    container_name: serviceBot
+    environment:
+      - TELEGRAM_BOT_TOKEN=""
+      - USER_SERVICE=http://serviceUser:8080
+      - MATCH_SERVICE=http://serviceMatch:8081
+    networks:
+      - backend2
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  backend2:
+    external: true
+
