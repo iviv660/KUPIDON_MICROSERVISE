@@ -60,7 +60,7 @@ git clone  https://github.com/iviv660/KUPIDON_MICROSERVISE. git
    docker build -t service-user:latest .
    docker build -t service-match:latest .
    docker build -t service-notification:latest .
-  
+  ```
 
 - Запустите все docker-compose (для каждого сервиса)
   ```bash
