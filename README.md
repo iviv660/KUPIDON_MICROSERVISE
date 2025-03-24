@@ -72,7 +72,7 @@ git clone  https://github.com/iviv660/KUPIDON_MICROSERVISE. git
 ## Используемые библиотеки
 
 ### Для работы с Telegram:
-- **github.com/go-telegram-bot-api/telegram-bot-api** — библиотека для взаимодействия с Telegram Bot API.
+- **github.com/tucnak/telebot** — библиотека для взаимодействия с Telegram Bot API.
 
 ### Для работы с PostgreSQL:
 - **github.com/jackc/pgxpool/v4** — PostgreSQL клиент для Go, используется для работы с базой данных.
